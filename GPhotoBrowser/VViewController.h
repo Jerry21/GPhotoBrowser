@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VViewController.h
 //  GPhotoBrowser
 //
 //  Created by yejunyou on 2017/5/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface VViewController : UIViewController
 
 @end
-

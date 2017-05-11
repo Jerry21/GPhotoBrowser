@@ -1,0 +1,23 @@
+MaskButton
+1.disabled:
+	bg:255
+	title:155
+
+2.highlighted:
+	bg:204 x 3 
+	title: 55 x 3
+
+3.enable【normal】: 
+	bg:255
+	title:75
+
+
+========2期===========
+
+1.disabled:
+	#ffffff alphe:50%
+
+2.highlighted:
+	#000000 alphe:10%
+
+3.enable【normal】: 

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  VHViewController.m
 //  GPhotoBrowser
 //
 //  Created by yejunyou on 2017/5/11.
 //  Copyright © 2017年 yejunyou. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "VHViewController.h"
 
-@interface ViewController : UITableViewController
-
+@implementation VHViewController
 
 @end
-

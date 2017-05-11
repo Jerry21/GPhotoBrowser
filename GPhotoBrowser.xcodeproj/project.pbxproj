@@ -11,8 +11,12 @@
 		75FE95A71EC445A200A9C91F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95A61EC445A200A9C91F /* AppDelegate.m */; };
 		75FE95AA1EC445A200A9C91F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95A91EC445A200A9C91F /* ViewController.m */; };
 		75FE95AD1EC445A200A9C91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FE95AB1EC445A200A9C91F /* Main.storyboard */; };
-		75FE95AF1EC445A200A9C91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FE95AE1EC445A200A9C91F /* Assets.xcassets */; };
 		75FE95B21EC445A200A9C91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FE95B01EC445A200A9C91F /* LaunchScreen.storyboard */; };
+		75FE95BC1EC4474B00A9C91F /* UIView+FrameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95BB1EC4474B00A9C91F /* UIView+FrameAdjust.m */; };
+		75FE95BE1EC44BA500A9C91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FE95BD1EC44BA500A9C91F /* Assets.xcassets */; };
+		75FE95C41EC457B400A9C91F /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95C31EC457B400A9C91F /* HViewController.m */; };
+		75FE95C71EC45FC800A9C91F /* VViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95C61EC45FC800A9C91F /* VViewController.m */; };
+		75FE95CA1EC4628B00A9C91F /* VHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE95C91EC4628B00A9C91F /* VHViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +27,17 @@
 		75FE95A81EC445A200A9C91F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75FE95A91EC445A200A9C91F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75FE95AC1EC445A200A9C91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		75FE95AE1EC445A200A9C91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75FE95B11EC445A200A9C91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75FE95B31EC445A200A9C91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FE95BA1EC4474A00A9C91F /* UIView+FrameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAdjust.h"; sourceTree = "<group>"; };
+		75FE95BB1EC4474B00A9C91F /* UIView+FrameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAdjust.m"; sourceTree = "<group>"; };
+		75FE95BD1EC44BA500A9C91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FE95C21EC457B400A9C91F /* HViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
+		75FE95C31EC457B400A9C91F /* HViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		75FE95C51EC45FC800A9C91F /* VViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VViewController.h; sourceTree = "<group>"; };
+		75FE95C61EC45FC800A9C91F /* VViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VViewController.m; sourceTree = "<group>"; };
+		75FE95C81EC4628B00A9C91F /* VHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHViewController.h; sourceTree = "<group>"; };
+		75FE95C91EC4628B00A9C91F /* VHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,21 @@
 		75FE95A11EC445A200A9C91F /* GPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				75FE95B91EC4471A00A9C91F /* Cetagory */,
 				75FE95A51EC445A200A9C91F /* AppDelegate.h */,
 				75FE95A61EC445A200A9C91F /* AppDelegate.m */,
 				75FE95A81EC445A200A9C91F /* ViewController.h */,
 				75FE95A91EC445A200A9C91F /* ViewController.m */,
+				75FE95C21EC457B400A9C91F /* HViewController.h */,
+				75FE95C31EC457B400A9C91F /* HViewController.m */,
+				75FE95C51EC45FC800A9C91F /* VViewController.h */,
+				75FE95C61EC45FC800A9C91F /* VViewController.m */,
+				75FE95C81EC4628B00A9C91F /* VHViewController.h */,
+				75FE95C91EC4628B00A9C91F /* VHViewController.m */,
 				75FE95AB1EC445A200A9C91F /* Main.storyboard */,
-				75FE95AE1EC445A200A9C91F /* Assets.xcassets */,
 				75FE95B01EC445A200A9C91F /* LaunchScreen.storyboard */,
 				75FE95B31EC445A200A9C91F /* Info.plist */,
+				75FE95BD1EC44BA500A9C91F /* Assets.xcassets */,
 				75FE95A21EC445A200A9C91F /* Supporting Files */,
 			);
 			path = GPhotoBrowser;
@@ -77,6 +96,15 @@
 				75FE95A31EC445A200A9C91F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75FE95B91EC4471A00A9C91F /* Cetagory */ = {
+			isa = PBXGroup;
+			children = (
+				75FE95BA1EC4474A00A9C91F /* UIView+FrameAdjust.h */,
+				75FE95BB1EC4474B00A9C91F /* UIView+FrameAdjust.m */,
+			);
+			name = Cetagory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +138,7 @@
 				TargetAttributes = {
 					75FE959E1EC445A200A9C91F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CZD89388LH;
 					};
 				};
 			};
@@ -137,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FE95B21EC445A200A9C91F /* LaunchScreen.storyboard in Resources */,
-				75FE95AF1EC445A200A9C91F /* Assets.xcassets in Resources */,
+				75FE95BE1EC44BA500A9C91F /* Assets.xcassets in Resources */,
 				75FE95AD1EC445A200A9C91F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +180,11 @@
 			files = (
 				75FE95AA1EC445A200A9C91F /* ViewController.m in Sources */,
 				75FE95A71EC445A200A9C91F /* AppDelegate.m in Sources */,
+				75FE95BC1EC4474B00A9C91F /* UIView+FrameAdjust.m in Sources */,
+				75FE95CA1EC4628B00A9C91F /* VHViewController.m in Sources */,
+				75FE95C71EC45FC800A9C91F /* VViewController.m in Sources */,
 				75FE95A41EC445A200A9C91F /* main.m in Sources */,
+				75FE95C41EC457B400A9C91F /* HViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Future-Version.GPhotoBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +313,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Future-Version.GPhotoBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
